@@ -6,4 +6,4 @@ Nesse projeto o desafio foi de reconstruir a página de login do Instagram. Para
 Javascript e HTML5.
 
 # link do site
-[Instagram](https://jwpires.github.io/SPREAD-FULLSTACK-DEVELOPER-PROJETOS/)
+[Desafios](https://jwpires.github.io/CursoFullStackDioMe/)
