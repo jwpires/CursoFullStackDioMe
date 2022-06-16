@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamentos de Align Content</title>
+<style>
+    .container{
+        height: 400px;
+        max-width: 300px;
+        display: flex;
+        flex-wrap: wrap;
+        border: 1px solid black;
+    }
+
+    .item{
+        background-color: orangered;
+        padding: 0 5px;
+        margin: 5px;
+        flex: 1;
+        text-align: center;
+        color: white;
+    }
+
+    .strecht{
+        align-content: stretch;
+    }
+
+    .center{
+        align-content: center;
+    }
+
+    .flex-start{
+        align-content: flex-start;
+    }
+
+    .flex-end{
+        align-content: flex-end;
+    }
+
+    .space-around{
+        align-content: space-around;
+    }
+
+    .spcace-between{
+        align-content: space-between;
+    }
+</style>
+
+</head>
+<body>
+    <p>stretch</p>
+    <div class="container stretch">
+        <div class="item">Ao contrário do que sum não é </div>
+        <div class="item">mas a maioria sofe alteração, seja por </div>
+        <div class="item">"Lorem ipsum dectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magn</div>
+        <div class="item">Seção 1.10.33um", escrita por Cícero em 45 AC</div>
+        <div class="item">"On the other else he endures pains to avoid worse pains.</div>
+        <div class="item">É um fato conhecido de  distrairá com o conteúdo de</div>
+        <div class="item">Existem muitas s de passagens de Lorem Ipsum</div>
+    </div>
+
+    <p>Center</p>
+    <div class="container center">
+        <div class="item">Ao contrário do que se acredita, Lorem Ipsum não é </div>
+        <div class="item">mas a maioria sofreu algum tipo de alteração, seja por </div>
+        <div class="item">"Lorem ipsum</div>
+        <div class="item">Seção 1.10.33 Cícero em 45 AC</div>
+        <div class="item">"On the other  pains to avoid worse pains.</div>
+        <div class="item">É um fato conh distrairá com o conteúdo de</div>
+        <div class="item">Existem muitasens de Lorem Ipsum</div>
+    </div>
+
+    <p>flex-start</p>
+    <div class="container flex-start">
+        <div class="item">Ao contrário do que se acredita, Lorem Ipsum não é </div>
+        <div class="item">mas a maioria sofreu algum tipo de alteração, seja por </div>
+        <div class="item">"Lorem ipsum</div>
+        <div class="item">Seção 1.10.33 Cícero em 45 AC</div>
+        <div class="item">"On the other  pains to avoid worse pains.</div>
+        <div class="item">É um fato conh distrairá com o conteúdo de</div>
+        <div class="item">Existem muitasens de Lorem Ipsum</div>
+    </div>
+
+    <p>flex-end</p>
+    <div class="container flex-end">
+        <div class="item">Ao contrário do que se acredita, Lorem Ipsum não é </div>
+        <div class="item">mas a maioria sofreu algum tipo de alteração, seja por </div>
+        <div class="item">"Lorem ipsum</div>
+        <div class="item">Seção 1.10.33 Cícero em 45 AC</div>
+        <div class="item">"On the other  pains to avoid worse pains.</div>
+        <div class="item">É um fato conh distrairá com o conteúdo de</div>
+        <div class="item">Existem muitasens de Lorem Ipsum</div>
+    </div>
+
+    <p>space-around</p>
+    <div class="container space around">
+        <div class="item">Ao contrário do que se acredita, Lorem Ipsum não é </div>
+        <div class="item">mas a maioria sofreu algum tipo de alteração, seja por </div>
+        <div class="item">"Lorem ipsum</div>
+        <div class="item">Seção 1.10.33 Cícero em 45 AC</div>
+        <div class="item">"On the other  pains to avoid worse pains.</div>
+        <div class="item">É um fato conh distrairá com o conteúdo de</div>
+        <div class="item">Existem muitasens de Lorem Ipsum</div>
+    </div>
+
+    <p>space-between</p>
+    <div class="container space-between">
+        <div class="item">Ao contrário do que se acredita, Lorem Ipsum não é </div>
+        <div class="item">mas a maioria sofreu algum tipo de alteração, seja por </div>
+        <div class="item">"Lorem ipsum</div>
+        <div class="item">Seção 1.10.33 Cícero em 45 AC</div>
+        <div class="item">"On the other  pains to avoid worse pains.</div>
+        <div class="item">É um fato conh distrairá com o conteúdo de</div>
+        <div class="item">Existem muitasens de Lorem Ipsum</div>
+    </div>
+    
+</body>
+</html>l

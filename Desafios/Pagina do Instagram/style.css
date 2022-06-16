@@ -1,0 +1,181 @@
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(243, 243, 243);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.flex-conteiner-inst{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    height: 100vh;
+    
+}
+
+.celphone{
+    display: flex;
+    margin-top: 10px;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    
+}
+
+#celphone .img-oculta{
+    opacity: 0;
+    margin-left: 0px;
+    height: 92%;
+    width: 20%;
+    position: absolute;
+}
+
+#celphone .img-celphone{
+    height: 42rem;
+    width: 30rem;
+    position: relative;
+    margin-top: 10%;
+}
+
+#celphone .img-start{
+    opacity: 1;
+    margin-left: 0rem;
+    margin-bottom: 360px;
+    height: 580px;
+    width: 260px;
+    margin-left: 50px;
+    position: absolute;
+}
+
+.login{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 50%;
+    min-width: 34rem;
+}
+
+.fields{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    background-color: #fff;
+    width: 100%;
+    padding: 1.3rem 0;
+    border: 1px solid  lightgray;
+}
+
+.fields:nth-child(1){
+    min-width: 19rem;
+}
+
+.fields:nth-child(1){
+    min-width: 19rem;
+    margin-bottom: 10px;
+}
+.logo-instagram{
+    height: 3rem;
+    margin-bottom: 1rem;
+}
+
+.img-perfil{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-bottom: 1rem;
+}
+
+.instagram-login{
+    background-color: #0095f6;
+    color: #fff;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+.instagram-logout{
+    color: #0095f6;
+    margin-top: 1rem;
+}
+
+.not-account{
+    color:rgb(160, 160, 160);
+}
+
+.link-blue{
+    color:#0095f6 ;
+}
+
+.get-the-app{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 1.3rem 0;
+}
+
+.download{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1rem;
+}
+
+.app-download{
+    height: 3rem;
+    width: 10rem;
+    background-size: cover;
+}
+
+.app-download:nth-child(1){
+    background-image: url('./img/apple-button.png');
+}
+
+.app-download:nth-child(2){
+    background-image: url('./img/googleplay-button.png');
+}
+
+/*Media queries*/
+@media(max-width: 1024px){
+    .flex-container-inst{
+        width: 90%;
+    }
+
+    #celphone .img-start{
+        margin-left: 0rem;
+        margin-bottom: 360px;
+        margin-left: 50px; 
+        position: absolute; 
+     }
+
+@media(max-width: 650px){
+    body{
+        background-color: #fff;
+    }
+
+    .fields{
+        border: 1px solid transparent;
+    }
+
+    .flex-container-inst{
+        width: 90%;
+    }
+
+    .celphone{
+        display: none;
+    }
+
+    .login{
+        width: 100%;
+    }
+}
